@@ -1,0 +1,88 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.15;
+  text-align: center;
+  background: whitesmoke;
+  color: #130e0f;
+}
+
+button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 2px solid rgb(24, 153, 74);
+  background-color: rgb(79, 145, 53);
+  display: inline;
+  padding: 0.5rem 0.5rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  color: #f9f9f9;
+  width: fit-content;
+}
+
+#delete-el {
+  border: 2px solid rgb(24, 153, 74);
+  background-color: #f9f9f9;
+  color: rgb(79, 145, 53);
+}
+#delete-el:hover {
+  color: #f9f9f9;
+  background-color: rgb(79, 145, 53);
+}
+
+button:hover {
+  background-color: rgb(24, 153, 74);
+  box-shadow: 0 0 0 2px rgb(101, 230, 84);
+  color: black;
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+input {
+  padding: 1rem 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+ul {
+  list-style: none;
+  font-size: 2rem;
+  padding-left: 0;
+  margin-top: 2rem;
+}
+
+li {
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+li a {
+  color: #5f9341;
+}
+#container {
+  width: 100%;
+}
+.team-img {
+  display: block;
+  border-radius: 100%;
+  transform: scale(0.5);
+  margin: 10px;
+  width: 50rem;
+  height: 50rem;
+  max-width: fit-content;
+  max-height: fit-content;
+  margin-left: 0;
+  float: left;
+  white-space: nowrap;
+  font-size: 0;
+}
+
+h1 {
+  letter-spacing: 2px;
+  font-weight: 200;
+  font-size: 3rem;
+}
